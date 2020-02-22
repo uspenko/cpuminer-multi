@@ -98,6 +98,7 @@ Dependencies
 Download
 ========
  * Windows releases: https://github.com/tpruvot/cpuminer-multi/releases
+ * Raspberry Pi 3 Raspbian OS releases: https://github.com/uspenko/cpuminer-multi/releases
  * Git tree:   https://github.com/tpruvot/cpuminer-multi
    * Clone with `git clone https://github.com/tpruvot/cpuminer-multi`
 
