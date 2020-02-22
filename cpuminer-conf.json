@@ -13,7 +13,7 @@
 	"cpu-priority" : 0,
 	"cpu-affinity" : -1,
 
-	"benchmark" : false,
+	"benchmark" : true,
 	"debug" : false,
 	"protocol": false,
 	"show-diff": true,
