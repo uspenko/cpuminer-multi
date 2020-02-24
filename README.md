@@ -1,5 +1,6 @@
 CPUMiner-Multi
 ==============
+Updated Bin files for Raspberry Pi 4 and Linux-x86_64
 
 [![Build Status](https://travis-ci.org/tpruvot/cpuminer-multi.svg)](https://travis-ci.org/tpruvot/cpuminer-multi)
 
