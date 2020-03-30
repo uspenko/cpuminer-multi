@@ -99,7 +99,7 @@ Dependencies
 Download
 ========
  * Windows releases: https://github.com/tpruvot/cpuminer-multi/releases
- * Raspberry Pi 3 Raspbian OS releases: https://github.com/uspenko/cpuminer-multi/releases
+ * Raspberry Pi 4,3 Raspbian OS releases: https://github.com/uspenko/cpuminer-multi/releases
  * Git tree:   https://github.com/tpruvot/cpuminer-multi
    * Clone with `git clone https://github.com/tpruvot/cpuminer-multi`
 
@@ -132,10 +132,16 @@ _OR_
 ```
 
 #### Note for pi64 users:
-
 ```
+  apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev make g++ zlib1g-dev
+```
+* Use `./build-linux-arm.sh`
+_OR_
+
+ ```
  ./autogen.sh
  ./configure --disable-assembly CFLAGS="-Ofast -march=native" --with-crypto --with-curl
+ make
 ```
 
 #### Notes for AIX users:
